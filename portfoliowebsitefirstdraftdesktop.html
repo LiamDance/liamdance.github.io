@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Dance - UX/UI Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .bio-section {
+            padding: 40px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .bio-section img {
+            border-radius: 70%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 30px;
+        }
+        .bio-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .projects-section {
+            padding: 40px;
+            background-color: #fff;
+        }
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .project-content {
+            max-width: 50%;
+            text-align: left;
+        }
+        .project-image {
+            max-width: 40%;
+            margin-left: 20px;
+        }
+        .project-card {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .project-card h3 {
+            font-size: 24px;
+            color: #333;
+        }
+        .project-card p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .project:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .contact-section {
+            padding: 40px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        footer .footer-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        footer .footer-section {
+            padding: 0 20px;
+            text-align: left;
+        }
+        footer .footer-section h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        footer .footer-section a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        footer .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        footer .footer-section:first-child {
+            flex: 1;
+            text-align: left;
+        }
+
+        footer .footer-section:last-child {
+            flex: 1;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Liam Dance</h1>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#services">Services</a>
+    </nav>
+</header>
+
+<section class="bio-section">
+    <img src="1-32a257e9.jpg" alt="Liam Dance">
+    <div class="bio-text">
+        <p>I'm a passionate UX/UI designer dedicated to crafting seamless, user-centered digital experiences. With expertise in user research, wireframing, prototyping, and visual design, I create intuitive interfaces that enhance usability. Proficient in Figma, Sketch, and Adobe, I blend creativity with strategy to deliver functional, engaging designs. Collaborating closely with developers and stakeholders, I bring innovative ideas to life—creating products users love and businesses thrive on.</p>
+    </div>
+</section>
+
+<section class="projects-section" id="projects">
+    <div class="project">
+        <div class="project-content">
+            <div class="project-card">
+                <h3>Case Study: Nature Conservancy Canada (NCC)</h3>
+                <p><strong>Introduction:</strong> Canada is home to some of the world’s most breathtaking landscapes, from vast boreal forests to expansive prairies and coastal rainforests. Yet, these natural spaces are increasingly under threat from development, climate change, and resource extraction. As a response, Nature Conservancy Canada (NCC) has dedicated itself to safeguarding these precious ecosystems. By working across the country, NCC is not just conserving land but securing a future where biodiversity thrives. This case study explores the conservation challenges facing Canada and how NCC is tackling them.</p>
+            </div>
+        </div>
+        <div class="project-image">
+            <img src="ncc logo.jpg" alt="Nature Conservancy Canada Project" width="80%">
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-content">
+            <div class="project-card">
+                <h3>Case Study: Project 2</h3>
+                <p><strong>Introduction:</strong> Brief description of Project 2.</p>
+            </div>
+        </div>
+        <div class="project-image">
+            <img src="your-project-image2.jpg" alt="Project 2" width="100%">
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-content">
+            <div class="project-card">
+                <h3>Case Study: Project 3</h3>
+                <p><strong>Introduction:</strong> Brief description of Project 3.</p>
+            </div>
+        </div>
+        <div class="project-image">
+            <img src="your-project-image3.jpg" alt="Project 3" width="100%">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <h3>Services and Social Media</h3>
+    <div class="footer-container">
+       
+        <div class="footer-section">
+            <h4>Services</h4>
+            <a href="#services">UX/UI Design</a>
+            <a href="#services">User Research</a>
+            <a href="#services">Wireframing & Prototyping</a>
+            <a href="#services">Visual Design</a>
+        </div>
+
+      
+        <div class="footer-section">
+            <h4>Follow Me</h4>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/your-profile" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/your-profile" target="_blank">Instagram</a>
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
+
