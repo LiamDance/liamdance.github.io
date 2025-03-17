@@ -224,3 +224,194 @@ body {
                 font-size: 14px;
             }
         }
+
+
+
+        /* ------------ portfolio website project css  --------- */
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h2, h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section img {
+            width: 250px; 
+            height: auto;
+            float: left; 
+            margin-right: 20px; 
+            margin-bottom: 20px; 
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .intro, .background, .analysis, .solutions, .conclusion {
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .intro h2, .background h2, .analysis h2, .solutions h2, .conclusion h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .intro p, .background p, .analysis p, .solutions p, .conclusion p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .solutions ul {
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+
+        .solutions li {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+    
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 20px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            .intro h2, .background h2, .analysis h2, .solutions h2, .conclusion h2 {
+                font-size: 24px;
+            }
+
+            .intro p, .background p, .analysis p, .solutions p, .conclusion p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            .solutions ul {
+                margin-left: 20px;
+            }
+
+            footer p {
+                font-size: 14px;
+            }
+
+            .section img {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            .intro h2, .background h2, .analysis h2, .solutions h2, .conclusion h2 {
+                font-size: 20px;
+            }
+
+            .intro p, .background p, .analysis p, .solutions p, .conclusion p {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
+            .solutions ul {
+                margin-left: 10px;
+            }
+
+            footer p {
+                font-size: 12px;
+            }
+
+            .section img {
+                width: 100%;
+                height: auto;
+                margin-right: 0;
+                margin-bottom: 15px;
+                float: none;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
